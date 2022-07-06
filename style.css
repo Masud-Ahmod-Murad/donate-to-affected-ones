@@ -23,8 +23,7 @@ p {
     color: #ffffff;
     text-align: center;
     padding-bottom: 120px;
-    background-image: linear-gradient(to bottom, rgba(100, 10, 10, 0) 5%, rgba(10, 10, 0, 1) 100%), url(images/donation15.jpg);  
-
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 12%, rgba(0, 0, 0, 1) 100%), url(images/donation15.jpg);
 }
 .button {
     display: inline-block;
