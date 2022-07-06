@@ -4,26 +4,33 @@ body {
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
 }
+
 h1 {
     font-size: 70px;
     font-weight: 600;
 }
+
 h2 {
     font-size: 40px;
 }
+
 h3 {
     font-size: 25px;
 }
+
 p {
     font-size: 17px;
     font-weight: 400;
 }
+
 #header-one {
     margin-bottom: 10px;
 }
+
 #header-two {
     margin-top: 10px;
 }
+
 .container {
     padding-top: 90px;
     color: #ffffff;
@@ -31,6 +38,7 @@ p {
     padding-bottom: 120px;
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 12%, rgba(0, 0, 0, 1) 100%), url(images/donation15.jpg);
 }
+
 .button {
     display: inline-block;
     background-image: linear-gradient(orange, rgb(254, 94, 94));
@@ -41,15 +49,18 @@ p {
     text-decoration: none;
     color: white;
 }
+
 .payment-div {
     padding-top: 80px;
     text-align: center;
 }
+
 .amount-selection {
     display: flex;
     padding-left: 18%;
     padding-right: 20%;
 }
+
 .amount {
     padding: 40px;
     margin: 12px;
@@ -60,23 +71,28 @@ p {
     background-color: gainsboro;
     color: rgb(85, 85, 85);
 }
+
 #red-border {
     border: 2px solid red;
     color: red;
     background-color: rgba(255, 0, 0, 0.109);
 }
+
 #other-amount {
     color: rgba(0, 0, 0, 0.291);
 }
+
 hr {
     margin-left: 19%;
     margin-right: 19%;
     text-align: center;
 }
+
 .donation-plan {
     margin-top: 155px;
     text-align: center;
 }
+
 .three-donation-plan{
     display: flex;
     margin-left: 8%;
@@ -84,6 +100,7 @@ hr {
     text-align: left;
     margin-bottom: 150px;
 }
+
 #frist-part {
     width: 40%;
     padding: 70px 25px 40px 25px;
@@ -92,6 +109,7 @@ hr {
     background-color: #FFF4D6;
     margin-right: 10px;
 }
+
 #second-part { 
     width: 40%;
     padding: 70px 25px 40px 25px;
@@ -101,6 +119,7 @@ hr {
     margin-left: 10px;
     margin-right: 10px;
 }
+
 #third-part {
     width: 40%;
     padding: 70px 25px 40px 25px;
@@ -109,14 +128,17 @@ hr {
     background-color: #FFEFEF;
     margin-left: 10px;
 }
+
 .donation-plan p {
     font-weight: 100;
     color: rgba(0, 0, 0, 0.386);
 }
+
 .mail {
     text-align: center;
     margin-bottom: 60px;  
 }
+
 .submit-bar {
     display: flex;
     justify-content: center;
@@ -127,6 +149,7 @@ hr {
     padding: 80px 60px;
     background-color: #FFF4D6;
 }
+
 #subscribe {
     padding: 15px 30px;
     background-image: linear-gradient(red, tomato);
@@ -134,5 +157,16 @@ hr {
     border-radius: 5px;
     text-decoration: none;
     color: white;
-    outline: none;
 }
+
+.humble h3 {
+    color:deeppink;
+    font-size: 30px;
+}
+
+.humble {
+    text-align: center;
+    background-color: black;
+    padding: 40px;
+    color: white;
+}   
