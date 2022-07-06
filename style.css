@@ -8,6 +8,9 @@ h1 {
     font-size: 70px;
     font-weight: 600;
 }
+h2 {
+    font-size: 40px;
+}
 p {
     font-size: 17px;
     font-weight: 400;
@@ -19,7 +22,7 @@ p {
     margin-top: 10px;
 }
 .container {
-    padding-top: 110px;
+    padding-top: 90px;
     color: #ffffff;
     text-align: center;
     padding-bottom: 120px;
@@ -27,9 +30,43 @@ p {
 }
 .button {
     display: inline-block;
-    background-image: linear-gradient(rgb(236, 63, 63), tomato);
-    border-radius: 8px;
+    background-image: linear-gradient(orange, rgb(254, 94, 94));
+    border-radius: 5px;
     padding: 18px 30px;
     font-weight: 700;
     font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+.payment-div {
+    padding-top: 80px;
+    text-align: center;
+}
+.amount-selection {
+    display: flex;
+    padding-left: 18%;
+    padding-right: 20%;
+}
+.amount {
+    padding: 40px;
+    margin: 12px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 500;
+    background-color: gainsboro;
+    color: rgb(85, 85, 85);
+}
+#red-border {
+    border: 2px solid red;
+    color: red;
+    background-color: rgba(255, 0, 0, 0.109);
+}
+#other-amount {
+    color: rgba(0, 0, 0, 0.291);
+}
+hr {
+    margin-left: 19%;
+    margin-right: 19%;
+    text-align: center;
 }
